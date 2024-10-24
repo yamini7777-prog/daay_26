@@ -1,0 +1,41 @@
+types of java script console methods
+
+console.log()
+.the most commonly used console method. It is used to output a message in the console.
+console.assert()
+ .condition and if the condition is false then outputs a message in the console. If the assertion     is true then nothing happens.
+console.clear()
+.It is useful when you want to clear the console before logging something. The terminal running the script (like Node) will not be cleared.
+console.count()
+ .method accepts an argument which is a label to the output, it is logged every time
+console.dir()
+ .displays an interactive list of all the properties of a specified object.
+console.error()
+.outputs an error message to the console.
+.The error message is displayed in red color and the icon is a red circle with a white cross.
+console.warn()
+.outputs a warning message to the console.
+.The warning message is displayed in yellow color and the warning icon is a yellow triangle with an exclamation mark.
+console.table()
+.used to display data in form of a table.
+.The method takes 1 mandatory argument data, which must be an array or an object.
+console.time()
+.used to measure the time taken by a block of code to execute.
+console.trace() 
+.used to track the execution of a function.
+console.group()
+.used to group the output of a block of code.
+.It is mainly used when you have a lot of output and you want to group them together so that it is easy to read.
+console.info() 
+ .used to display an informational message.
+.It takes 1 argument message, which is the message to be displayed.
+.The message is displayed with an info icon.
+
+
+
+
+
+
+
+
+
